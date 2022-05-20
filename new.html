@@ -1,23 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Ami.com</title>
         <h1 style="text-align:center">My webpage</h1>
+        <style>
+            body{
+                background-color:rgb(40,40,40);
+            }
+            p{
+                color:rgb(250,250,250);
+            }
+            h1,h2{color:aliceblue;}
+            form{color:aliceblue;}
+            a:link,a:visited{
+                background-color: rgb(72, 240, 30);
+                color:white;
+                padding:15px 25px;
+                text-align:center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 7px;
+            }
+            a:hover, a:active{
+                background-color:rgb(57, 217, 4);
+                text-align: right;
+            }
+            div{
+            background-color: rgba(20, 20, 20, 0.9);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            }
+            form{
+                text-align: left;
+            }
+        </style>
     </head>
     <body>
-        <h1>welcome one and all.there should be a break here.<br>there it is.
-        </h1>
-        <p>
-            this is just the beginning
+        <img src="a.jpg" heigth="500" width="600" alt="abstract" >
+        <h1 style="background-color:beige;color:black">welcome one and all.there should be a break here.<br>there it is.</h1><hr>
+        <p style="border:2px dotted red; font-family:Georgia, 'Times New Roman', Times, serif;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, reiciendis et. Consectetur, laborum fuga. Consequuntur fugiat veniam quisquam molestiae iste voluptatum accusamus laborum quaerat, a illum excepturi maiores perferendis ipsam!
+            this is just the beginning<br>
             <a href="https://wikipedia.com">find out here</a>
         </p>
-        <iframe width="720" height="456" src="https://www.youtube.com/embed/a8Gx8wiNbs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <form action="https://youtube.com">
-            <label for="fname">First name:</label><br>
-            <input type="text">
-            <label for="email">E-Mail</label>
-            <input type="password">
-            <input type="radio">eggs?<br>
+        <iframe width="720" height="456" src="https://www.youtube.com/embed/a8Gx8wiNbs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+        <a href="new+1.html">next page</a><hr>
+        <div class="form" id="1">
+        <h2 style="margin:20px;">Fill out you details below:</h2>
+        <form action="https://youtube.com" style="margin:25px;">
+            <label for="fname">First name:</label>
+            <input type="text"><br>
+            <label for="email">E-Mail:</label>
+            <input type="password"><br>
+            <h3>What do you like about this site?</h3>
+            <input type="checkbox">links<br>
+            <input type="checkbox">images<br>
+            <input type="checkbox">youtube<br><br><br>
             <input type="submit">
         </form>
+        </div>
     </body>
 </html>
